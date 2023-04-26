@@ -28,7 +28,7 @@ df.query('Ganhos > 4000')  #dias da semana com ganhos superiores à 4 mil
 
 #QUERIES PEDIDAS NO PROJETO:
 #--------------------------------------------------------------------------------
-#query 1: A subtração de impostos dos ganhos diários, que nesta semana foi de 7%;
+#1: A subtração de impostos dos ganhos diários, que nesta semana foi de 7%;
 x = df['Ganhos'] * 0.07 #valor de impostos
 r = df['Ganhos'] - x #subtração dos impostos
 df['Reajustado (0,7%)'] = r   #criação de uma coluna com os valores reajustados 
@@ -36,7 +36,7 @@ df['Reajustado (0,7%)'] = r   #criação de uma coluna com os valores reajustado
 #df #-> para visualização
 
 #---------------------------------
-#query 2: A soma total dos ganhos;
+#2: A soma total dos ganhos;
 
 df['Ganhos'].sum() #-> sem o reajuste
 
@@ -48,7 +48,7 @@ df['Ganhos'].sum() #-> sem o reajuste
 
 
 #------------------------------------
-#query 3: A média semanal dos ganhos;
+#3: A média semanal dos ganhos;
 df['Ganhos'].mean()
 #df['Reajustado (0,7%)'].mean()
 
@@ -58,7 +58,7 @@ df['Ganhos'].mean()
 
 
 #-------------------------------------------------
-#query 4: A soma total das despesas por categoria;
+#4: A soma total das despesas por categoria;
 #Limpeza:
 l = df['Limpeza'].sum()
 
@@ -78,7 +78,7 @@ w #total das despesas
 
 
 #----------------------------------------------
-#query 5: A média semanal de todas as despesas;
+#5: A média semanal de todas as despesas;
 #Limpeza:
 l = df['Limpeza'].mean()
 
@@ -98,7 +98,7 @@ w #média semanal total
 
 
 #--------------------------------------------------------------------------------------------
-#query 6: O lucro diário para informar qual dia foi mais lucrativo e o lucro total da semana;
+#6: O lucro diário para informar qual dia foi mais lucrativo e o lucro total da semana;
 #Gastos:
 #Limpeza:
 l = df['Limpeza']
