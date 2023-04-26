@@ -136,3 +136,7 @@ df.loc[df['Lucro diário'] == x]    #imprime a linha com o maior valor de lucro 
 - Reajustado (0,7%): 4555.605    <br>
 - Gasto diário: 786.53  <br>
 - Lucro diário: 3769.075  <br>
+<br><br>
+
+- Tabela final com os dados que julgo necessários estarem na planilha: <br>
+![Tabela Final](https://github.com/mattaugustt/projeto-individual-mod.-4/blob/main/tabela%20final.png)
