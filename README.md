@@ -1,6 +1,15 @@
 # Projeto individual - Módulo 4 (SENAC/Resilia)<br>
-<br>
 
+Projeto: <br>
+**Relatórios semanais.**  <br>
+
+Aluno: <br>
+**Matheus Augusto de Souza.** <br>
+
+e-mail para contato: <br>
+**mataugusto1999@gmail.com** <br>
+
+<br><br>
 - Apresentação do problema: <br>
 Uma loja deseja produzir relatórios
 semanais com ganhos e despesas. O gerente da
