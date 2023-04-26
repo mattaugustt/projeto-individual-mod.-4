@@ -11,7 +11,7 @@ isso, ele me enviou uma tabela de exemplo das
 despesas de uma semana:
 <br>
 
-![tabela projeto individual.png](link)
+![tabela projeto individual.png](https://github.com/mattaugustt/projeto-individual-mod.-4/blob/main/tabela%20projeto%20individual.png)
 
 
 <br>
